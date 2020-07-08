@@ -12,7 +12,7 @@ export default new Vuex.Store({
   mutations: {
     xiugai (state, data) {
       state.user = data
-      JSON.stringify(USER_KEY, localStorage.setItem(data))
+      localStorage.setItem(USER_KEY, JSON.stringify(data))
     },
     qingchu (state) {
       state.user = {}
