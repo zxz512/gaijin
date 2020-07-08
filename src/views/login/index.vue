@@ -1,13 +1,15 @@
 <template>
-  <div>
-
-    <router-view/>
-
-  </div>
+  <div>sssss</div>
 </template>
 
 <script>
 export default {
+  name: 'login',
+  data () {
+    return {
+
+    }
+  }
 }
 </script>
 
